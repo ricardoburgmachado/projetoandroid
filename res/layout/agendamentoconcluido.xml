@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dados da nova Consulta Agendada:" 
+        android:textSize="25px"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPF/Paciente:" 
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewPaciente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nome ou cpf do paciente" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data/Hora: "
+        android:textStyle="bold" />
+
+    
+    <TableRow
+    android:id="@+id/tableRow1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center" >
+    
+			    <TextView
+		        android:id="@+id/textViewData"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Dia 08/08/12   " />
+
+			    <TextView
+			        android:id="@+id/textViewHora"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text=" às 10:31 hs" />
+
+    </TableRow>
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agente de Saúde:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewAgente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paulo da Silva Sauro" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posto de Saúde:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewPosto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posto de Saúde Santa Maria" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewDescricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="detalhes da consulta" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal" >
+	    
+	    <Button
+	        android:id="@+id/buttonFechar"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Fechar" />
+	    
+    </TableRow>
+
+</LinearLayout>
