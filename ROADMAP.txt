@@ -1,0 +1,6 @@
+
+#RodaMap
+Para esta aplicação a próxima versão visa a integração da aplicação com o serviço de agenda do Google.
+Esta integração tem como base o uso da API "Google Calendar" disponível em http://code.google.com/p/google-api-java-client/ - acesso em 05/10/12.
+A partir desta integração, pretende-se enviar os dados de agendamento que até o momento estão armazenados no banco de dados nativo do Android (SQLite) para uma agenda do Google que já possui uma estrutura para fazer a gestão dessas consultas.
+Para ser feito um agendamento ainda serão definidas pelo grupo de colabodores do projeto as regras para os agendamentos.

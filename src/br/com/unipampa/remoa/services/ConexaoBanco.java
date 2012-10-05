@@ -9,6 +9,7 @@ import android.database.sqlite.SQLiteDatabase;
  * @author Ricardo Burg Machado, Alencar Machado
  * @version 2.0
  * @since 2012
+ * @license Opensource baseada em GNU-GPL
  * Classe que implementa Serializable que faz a criação de uma conexão com o banco de dados
  */
 public class ConexaoBanco implements Serializable{

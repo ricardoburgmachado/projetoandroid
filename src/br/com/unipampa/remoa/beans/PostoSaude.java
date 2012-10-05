@@ -1,5 +1,12 @@
 package br.com.unipampa.remoa.beans;
 
+/**
+ * @author Ricardo Burg Machado, Alencar Machado
+ * @version 2.0
+ * @since 2012
+ * @license Opensource baseada em GNU-GPL
+ */
+
 public class PostoSaude {
 
 	private int id;

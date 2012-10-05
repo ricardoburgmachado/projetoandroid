@@ -32,7 +32,7 @@ import android.util.Log;
  * /src/examples/org/apache/http/examples/client/ClientConnectionRelease.java
  * 
  * @author ricardo
- * 
+ * @license Opensource baseada em GNU-GPL
  */
 public class HttpClientImpl extends Http {
 	private final String CATEGORIA = "livro";

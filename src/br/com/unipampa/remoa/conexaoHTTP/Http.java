@@ -7,6 +7,7 @@ import java.util.Map;
  * factory para criar a implementação correta
  * 
  * @author ricardo
+ * @license Opensource baseada em GNU-GPL
  *
  */
 public abstract class Http {

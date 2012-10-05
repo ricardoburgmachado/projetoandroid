@@ -10,6 +10,7 @@ import java.util.TimeZone;
  * @author Ricardo Burg Machado, Alencar Machado
  * @version 2.0
  * @since 2012
+ * @license Opensource baseada em GNU-GPL
  * Classe utilizada para obtenção da data e hora atual 
  * Observação: o horário obtido é baseado no Locale "pt_BR"
  */

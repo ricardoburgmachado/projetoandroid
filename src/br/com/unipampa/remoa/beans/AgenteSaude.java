@@ -6,6 +6,7 @@ import java.io.Serializable;
  * @author Ricardo Burg Machado, Alencar Machado
  * @version 2.0
  * @since 2012
+ * @license Opensource baseada em GNU-GPL
  * Classe que contém todas as características de um agendamento e seus métodos acessores e modificadores
  */
 public class AgenteSaude implements Serializable{

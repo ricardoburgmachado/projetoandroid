@@ -16,6 +16,7 @@ import android.util.Log;
  * Classe que encapsula as requests HTTP utilizando a "HttpURLConnection"
  * 
  * @author ricardo
+ * @license Opensource baseada em GNU-GPL
  * 
  */
 public class HttpNormalImpl extends Http {

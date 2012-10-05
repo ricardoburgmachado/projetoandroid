@@ -1,6 +1,7 @@
 package br.com.unipampa.remoa.activity;
 
 import java.util.ArrayList;
+import android.os.Debug;
 import java.util.List;
 import android.content.Context;
 import android.content.Intent;
@@ -32,11 +33,15 @@ import com.google.android.maps.OverlayItem;
  * @author Ricardo Burg Machado, Alencar Machado
  * @version 2.0
  * @since 2012
+ * @license Opensource baseada em GNU-GPL
  * Classe que extende MapActicity e implementa LocationListener, é chamada após o usuário estar logado.
  *
  */
 public class RemoaMapaActivity extends MapActivity  implements LocationListener{
 
+
+	
+	
 	private static final int INSERT_ID = Menu.FIRST;
 	private static final int LISTAR_ID = Menu.FIRST + 1;
 	private static final int VOLTAR_ID = Menu.FIRST + 2;
@@ -61,13 +66,20 @@ public class RemoaMapaActivity extends MapActivity  implements LocationListener{
 	 */
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        
+    	
+       
+    	
     	super.onCreate(savedInstanceState);
     	setContentView(R.layout.activity_remoa_mapa);
         mapView = (MapView) findViewById(R.id.mapa);
-        new ConexaoBanco(this.openOrCreateDatabase("bancoremoa2", Context.MODE_PRIVATE, null));
+       
+        
 
+        new ConexaoBanco(this.openOrCreateDatabase("bancoremoa2", Context.MODE_PRIVATE, null));
+        
         setValoresAgenteLogado();
+        
+        
 	    
     }
 

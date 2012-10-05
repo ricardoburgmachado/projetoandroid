@@ -4,7 +4,9 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-
+/*
+ * @license Opensource baseada em GNU-GPL
+ */
 public class Logar {
 
 	private final String url;

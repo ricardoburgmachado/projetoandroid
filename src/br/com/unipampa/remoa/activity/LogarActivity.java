@@ -29,6 +29,7 @@ import android.widget.Toast;
  * @author Ricardo Burg Machado, Alencar Machado
  * @version 2.0
  * @since 2012
+ * @license Opensource baseada em GNU-GPL
  * Classe que inicia a aplicação apresentando uma tela de login ao usuário, extende Activity e implementa Runnable
  */
 public class LogarActivity extends Activity implements Runnable{

@@ -17,6 +17,7 @@ import br.com.unipampa.remoa.beans.PostoSaude;
  * @author Ricardo Burg Machado, Alencar Machado
  * @version 2.0
  * @since 2012
+ * @license Opensource baseada em GNU-GPL
  * Classe responsável pela persistência de dados dos objetos do tipo PostoSaude
  */
 public class PostoSaudeService {

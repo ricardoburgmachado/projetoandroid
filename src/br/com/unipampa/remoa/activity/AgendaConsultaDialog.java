@@ -28,6 +28,7 @@ import android.widget.Toast;
  * @author Ricardo Burg Machado, Alencar Machado
  * @version 2.0
  * @since 2012
+ * @license Opensource baseada em GNU-GPL
  * Classe que extende AlertDialog que tem como finalidade a criação de uma caixa de diálogo que mostra campos a serem preenchidos 
  * com as características de um novo agendamento/consulta
  */
